@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F3E5D8;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    width: 35rem;
+    margin: 5rem auto;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+
+#omletPhoto {
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+#omletPhoto2 {
+    display: none;
+}
+
+h2 {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.fontAll {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+}
+
+.parHeading {
+    font-family: "Young Serif", sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: #79402F;
+}
+
+#preparationPar {
+    background-color: #FFF7FC;
+    padding: 1rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.prepTime {
+    color: #79402F;
+    font-weight: bold;
+}
+
+.spacingAfter {
+    margin-bottom: 1rem;
+}
+
+.spacingAfterLista {
+    margin-bottom: 0.7rem;
+    padding-left: 20px;
+}
+
+li::marker {
+    font-weight: bold;
+    color: #79402F;
+}
+
+hr.line {
+    border-top: 1px solid rgba(231, 227, 227, 0.721);
+}
+
+.boldLetters {
+    color: #615C56;
+    font-weight: bold;
+}
+
+.spacingTable {
+    margin-right: 5rem;
+}
+
+table {
+    border-collapse: collapse;
+    border: none;
+    width: 30rem;
+}
+
+tr {
+    border: solid rgba(231, 227, 227, 0.82);
+    border-width: 1px 0;
+}
+
+td {
+    padding: 10px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+@media all and (max-width: 400px) {
+    #container {
+        margin: 0 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 2rem;
+        border-radius: 0;
+    }
+
+    #omletPhoto {
+        display: none;
+    }
+
+    #omletPhoto2 {
+        display: block;
+        width: 100%;
+    }
+}
